@@ -18,8 +18,8 @@ importers:
   packages/bridge:
     devDependencies:
       '@manifesto-ai/core':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@types/node':
         specifier: ^22.10.2
         version: 22.19.3
@@ -42,8 +42,8 @@ importers:
         specifier: workspace:*
         version: link:../bridge
       '@manifesto-ai/core':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.3.1(@testing-library/dom@10.4.1)(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -331,6 +331,9 @@ packages:
 
   '@manifesto-ai/core@0.2.0':
     resolution: {integrity: sha512-qaFTXvecYTys1CAMZ+gPyG1VPmCDh4d7Z5dER1kCnvfhb2nGs/Rn2d5/yegmxeHcQYAePLhD8r731AtQ/1xmJw==}
+
+  '@manifesto-ai/core@0.3.0':
+    resolution: {integrity: sha512-iPati82KGvrNUV8jln45S39dids/MgKPxJCXNfj1vc7UFbgHIqSMrww+QXD1exzLvKmPLX+sYmrO1tjyQ8rkuQ==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1249,6 +1252,10 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   '@manifesto-ai/core@0.2.0':
+    dependencies:
+      zod: 3.25.76
+
+  '@manifesto-ai/core@0.3.0':
     dependencies:
       zod: 3.25.76
 
