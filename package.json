@@ -1,0 +1,23 @@
+{
+  "name": "@manifesto-ai/bridge",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Bridge packages for Manifesto AI - connects domain models to UI frameworks",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "turbo build",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean",
+    "publish:packages": "bash scripts/publish-packages.sh"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
